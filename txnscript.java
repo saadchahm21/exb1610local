@@ -317,7 +317,7 @@ public class txnscript
     {
         String result = "" ;
 		
-		String sql = "UPDATE Villes SET nom = ?, code_postal = ? WHERE id = ?" ;
+		String sql = "UPDATE Villes SET code_postal = ? WHERE nom = ?" ;
 
 		try
 		{
